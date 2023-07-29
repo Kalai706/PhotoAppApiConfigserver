@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: PhotoAppApiConfigserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Kalai706/PhotoAppConfiguration.git
+          username: Kalai706
+          password: SuccessLearn123#
+          default-label: main
+
+server:
+  port: 6150
+
